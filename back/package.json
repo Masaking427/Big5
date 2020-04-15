@@ -1,0 +1,27 @@
+{
+  "name": "big5.5",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "nodemon -e ejs,js,json start ./bin/www"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "simple-statistics": "^7.0.8",
+    "twitter": "^1.7.1"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  }
+}
